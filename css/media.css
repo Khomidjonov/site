@@ -1,0 +1,367 @@
+@media(max-width:1149px) {
+    .service__item {
+        width: 326px;
+        height: 342px;
+    }
+}
+
+@media(max-width:1057px) {
+
+    .skill__item-line-html-line,
+    .skill__item-line-css-line,
+    .skill__item-line-js-line {
+        width: 450px;
+    }
+}
+
+@media(max-width:1023px) {
+    .service__item {
+        width: 290px;
+        height: 288px;
+        justify-content: center;
+    }
+
+    .service__item-icon {
+        max-width: 75px;
+        margin: 0 auto;
+    }
+
+    .service__item-icon img {
+        width: 100%;
+    }
+
+    .service__item-subtitle {
+        font-size: 18px;
+    }
+
+    .service__item-title {
+        font-size: 43px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width:975px) {
+    .work__wrapper {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .skill__inner {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width:921px) {
+    .service__item-subtitle {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .service__item {
+        width: 259px;
+        height: 251px;
+    }
+
+    .service__item-title {
+        font-size: 39px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .service__item-icon {
+        max-width: 65px;
+    }
+}
+
+@media (max-width:850px) {
+    .wokr__item-content-text {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:823px) {
+    .service__inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .service__item {
+        width: 368px;
+        height: 364px;
+        border-radius: 18px;
+    }
+
+    .service__item-title {
+        font-size: 50px;
+    }
+
+    .service__item-subtitle {
+        font-size: 20px;
+        width: 265px;
+    }
+}
+
+@media(max-width:777px) {
+    .work__wrapper {
+        height: 435px;
+    }
+}
+
+@media(max-width:750px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 23px;
+        margin-top: 13px;
+    }
+}
+
+@media(max-width:720px) {
+    .work__wrapper {
+        flex-direction: column;
+        height: 100%;
+        width: 500px;
+    }
+
+    .wokr__item-img {
+        max-width: 400px;
+    }
+
+    .wokr__item-content-text {
+        width: 400px;
+    }
+
+    .skill {
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width:540px) {
+    .header__con  {
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+    .nav__list {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #000;
+        top: 0;
+        left: -100%;
+        z-index: 99;
+        flex-direction: column;
+        justify-content: center;
+        transition: .5s;
+    }
+
+    .nav__list.active {
+        left: 0;
+    }
+
+    .nav__link {
+        font-size: 30px;
+
+    }
+    .swiper-pagination {
+        padding-top: 30px;
+    }
+
+    .burger__menu {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        display: block;
+        z-index: 99;
+    }
+
+    .burger__menu span {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 9px;
+        transition: .5s;
+    }
+
+    .burger__menu.active span {
+        transform: scale(0);
+    }
+
+    .burger__menu::after,
+    .burger__menu::before {
+        content: "";
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: .5s;
+    }
+
+    .burger__menu::before {
+        top: 0;
+    }
+
+    .burger__menu::after {
+        bottom: 0;
+    }
+
+    .burger__menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .burger__menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .service__title {
+        font-size: 35px;
+    }
+
+    .work__wrapper {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 35px;
+    }
+
+    .work__title {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:493px) {
+    .wsayt {
+        width: 150px;
+        height: 30px;
+        top: 50%;
+        left: -60px;
+        font-size: 13px;
+    }
+    #typed-text {
+        font-size: 40px;
+    }
+    header {
+        height: 600px;
+    }
+    .skill__form {
+        width: 100%;
+        padding: 12px 25px;
+    }
+
+    .skill__form-title {
+        width: 100%;
+    }
+
+    .skill__item-line-html-line,
+    .skill__item-line-css-line,
+    .skill__item-line-js-line {
+        width: 100%;
+    }
+
+    .skill__subtitle {
+        width: 100%;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .modal__close {
+        right: 20px;
+        top: 10px;
+    }
+
+    .modal {
+        margin: 0 20px;
+        width: 346px;
+    }
+    .modal__form-title {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .modal__form-inner {
+        width: 280px;
+    }
+    .modal__form-textarea {
+        height: 107px;
+    }
+
+    .modal {
+        height: 409px;
+    }
+}
+
+@media(max-width:462px) {
+    .wokr__item-content-text {
+        width: 333px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .service__item {
+        width: 317px;
+        height: 317px;
+    }
+}
+
+@media(max-width:396px) {
+    .wokr__item-content-text {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .form__button {
+        width: 137px;
+        height: 43px;
+        padding: 0;
+    }
+
+    .skill__form-title {
+        font-size: 20px;
+    }
+
+    .skill__form-textarea {
+        height: 122px;
+        font-size: 14px;
+    }
+
+    .skill__form-input {
+        height: 43px;
+        font-size: 14px;
+    }
+    .modal__form-inner {
+        width: 249px;
+    }
+}
+
+@media(max-width:340px) {
+    .service__item {
+        width: 285px;
+        height: 290px;
+    }
+
+    .service__item-subtitle {
+        width: 100%;
+        font-size: 16px;
+    }
+}
